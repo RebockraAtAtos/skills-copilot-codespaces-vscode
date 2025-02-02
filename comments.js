@@ -16,3 +16,4 @@ let comments = [
 // get all comments
 app.get('/comments', (req, res) => {
   res.send(comments)
+});
